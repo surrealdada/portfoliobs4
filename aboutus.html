@@ -46,7 +46,7 @@
                     </form>
 
                     <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="submit" id="newsButton">
+                        <button class="btn btn-outline-dark" type="button" id="newsButton">
                             <i class="bi-envelope-fill"></i>
                             Sign Up for Newsletter
                         </button>
@@ -65,8 +65,84 @@
                      <hr />   
             </div>
         </div>
+<!-- Test -->
 
-        
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End test here -->
+
+
+
+
+
+
+<!-- Yours -->
+        <div id="newsModal" class="modal fade" role="dialog" modal-lg>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Get looped in yo!</h3>
+                        <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-group">
+                                    <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                                    <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                                    <div class="col-lg-10">
+                                        <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                                    <div class="col-lg-10">
+                                        <textarea class="form-control" rows="8"></textarea>
+                                    </div>
+                                </div>
+                                    <div class="form-group row">
+                                        <div class="col col-form-label">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                            <button type="submit" class="btn btn-primary">Click Here to Join</button>
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Test -->
+
         <!-- Product section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 my-5">
@@ -216,7 +292,6 @@
                             <li><a href="#">Home</a></li>
                             <li><a href="aboutus.html">About</a></li>
                             <li><a href="#">Sites</a></li>
-                            <li><a href="contactus.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-sm-5 text-center">
